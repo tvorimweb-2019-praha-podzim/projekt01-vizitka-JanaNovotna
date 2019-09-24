@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    max-width: 75%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 105%;
+    text-align: center;
+    color: #404040;
+    background-color: #ffffe6;
+}
+
+h1 {
+    padding-top: 2%;
+    color: #293d3d;
+    font-size: 220%;
+}
+
+a:link {
+    color: #3d5c5c;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #005580;
+}
+
+a:hover {
+    color: #3d5c5c;
+    text-decoration: underline;
+}
+
+#text {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+img.icon {
+    width: 5%;
+    height: 5%;
+}
+
+img.profil {
+    max-width: 75%;
+    min-width: 20%;
+    display: block;
+    margin: 0 auto;
+}
