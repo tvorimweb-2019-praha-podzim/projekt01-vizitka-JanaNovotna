@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     max-width: 75%;
     font-family: 'Raleway', sans-serif;
-    font-size: 105%;
+    font-size: 1.1em;
     text-align: center;
     color: #404040;
     background-color: #ffffe6;
@@ -11,20 +11,20 @@ body {
 h1 {
     padding-top: 2%;
     color: #293d3d;
-    font-size: 220%;
+    font-size: 1.7em;
 }
 
 a:link {
-    color: #3d5c5c;
-    text-decoration: none;
+    color: #06490f;
+    text-decoration: dotted;
 }
 
 a:visited {
-    color: #005580;
+    color: #800000;
 }
 
 a:hover {
-    color: #3d5c5c;
+    color: #2b3cdbc9;
     text-decoration: underline;
 }
 
@@ -44,4 +44,34 @@ img.profil {
     min-width: 20%;
     display: block;
     margin: 0 auto;
+}
+
+img.ilustrace {
+    max-width: 75%;
+    min-width: 20%;
+    display: block;
+    margin: 1% auto;
+    border: 1px solid #293d3d;
+}
+
+.menu {
+    margin: 1% auto;
+    padding: 0;
+    background-color: #293d3d;
+    max-width: 60%;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    color: #ffffe6;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #348d40
 }
